@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCommit - English LTイベント</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #fff7e6;
+            color: #333;
+            line-height: 1.8; /* 行間を広げる */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ffcc80;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 5px solid #e65100; /* 視覚的に強調 */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #e65100;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #e65100;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            color: #bf360c;
+        }
+
+        .header-content {
+            margin-top: 50px;
+        }
+
+        .header-content h1 {
+            font-size: 50px;
+            color: #d84315; /* よりイベント感を強調 */
+            margin-bottom: 20px;
+        }
+
+        .header-content p {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            background-color: #fb8c00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #e65100;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .event-container {
+            width: 80%;
+            margin: 0 auto 50px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: left;
+            border: 2px solid #ffcc80; /* 境界線で視覚的に分ける */
+        }
+
+        .event-image {
+            text-align: center; /* 画像を中央に揃える */
+            margin-bottom: 30px;
+        }
+
+        .event-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .event-details {
+            text-align: left;
+            padding: 20px;
+            font-size: 22px;
+        }
+
+        .event-details h2 {
+            color: #e65100;
+            margin-bottom: 20px;
+            font-size: 28px;
+            text-align: center;
+            border-bottom: 2px solid #e65100; /* タイトルを強調 */
+            padding-bottom: 10px;
+        }
+
+        .event-details ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .event-details ul li {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        /* 主催者と開催名のフォントサイズを大きく */
+        .event-details ul li .important {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d84315;
+        }
+
+        .event-details a {
+            color: #fb8c00;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        .event-details a:hover {
+            text-decoration: underline;
+        }
+
+        /* 発表者のリスト内のアイテムにインデントを設定 */
+        .event-details ul ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        /* 各リスト項目にスペースを追加 */
+        .event-details ul ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TechCommit</div>
+        </nav>
+        <div class="header-content">
+            <h1>TechCommit英語LT会イベントへようこそ！</h1>
+            <p>知識を共有し、他の参加者がどんな事に関心があるか知って、より仲良くなろう！</p>
+            <a href="https://techcommit-event.com/signup" class="btn">今すぐ参加表明</a>
+        </div>
+    </header>
+
+    <div class="event-container">
+        <div class="event-image">
+            <img src="C:\Users\yukik\Downloads\笑顔.png" alt="イベント画像">
+        </div>
+        <div class="event-details">
+            <h2>イベント詳細</h2>
+            <ul>
+                <li><span class="important">開催名:</span> TechCommit 英語LT会</li>
+                <li><strong>開催日時:</strong> 2024年8月31日 20:00~21:30</li>
+                <li><strong>開催目的:</strong> hogehoge</li>
+                <li><strong>開催場所:</strong> TechCommit oVice</li>
+                <li><span class="important">主催者:</span> Daisukeさん</li>
+                <li><strong>発表者:</strong>
+                    <ul>
+                        <li>井上さん - 「発表タイトル1」</li>
+                        <li>友季子 - 「発表タイトル2」</li>
+                        <li>hogehogeさん - 「発表タイトル3」</li>
+                    </ul>
+                </li>
+                <li><strong>イベントURL:</strong> <a href="https://techcommit-event.com">https://techcommit-event.com</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
